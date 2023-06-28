@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: calc(100vw/6);
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.btn-standard {
+   height: 20px;
+   width: 120px;
+   background-color: none;
+   border: 1px solid #3E376B;
+   border-radius: 40px;
+   display: inline-block;
+   cursor: pointer;
+   position: relative;
+   margin-left: 20px;
+   padding: 10px 15px;
+}
+
+.btn-standard p {
+    color: white;
+    text-align: right;
+    position: absolute;
+    margin: 0 22px 0 0;
+    padding: 0;
+    right: 0;
+}
+
+.btn-standard img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-standard:hover {
+    border: 1px solid #4c3970;
+}

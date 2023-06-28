@@ -1,0 +1,10 @@
+.bg-glow-1 {
+    width: 747px;
+    height: 747px;
+    margin: 0 auto;
+    border-radius: 747px;
+    opacity: 0.23000000417232513;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #DA14CD 0%, rgba(218, 20, 205, 0.00) 100%);
+    backdrop-filter: blur(19.5px);
+    z-index: -1;
+}
